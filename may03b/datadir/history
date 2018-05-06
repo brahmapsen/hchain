@@ -1,0 +1,8 @@
+eth.accounts
+eth.getBalance("0x57e44a35648376d6423e280d4daea1190b330eca")
+miner.start(0)
+truffle compile
+eth.getBalance("0x57e44a35648376d6423e280d4daea1190b330eca")
+miner.start(0)
+eth.transfer("0xe1a7c4b31254bded85e2d7f1f67bcf2683c55653",value:1000)
+eth.transfer("0xe1a7c4b31254bded85e2d7f1f67bcf2683c55653",1000)

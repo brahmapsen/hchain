@@ -1,0 +1,42 @@
+=============== May 6, 2018 (EDT) ===============
+01:43:36.215343 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:43:36.301342 db@open opening
+01:43:36.317202 version@stat F·[] S·0B[] Sc·[]
+01:43:36.379888 db@janitor F·2 G·0
+01:43:36.379999 db@open done T·78.567152ms
+=============== May 6, 2018 (EDT) ===============
+01:47:40.628259 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:47:40.628401 version@stat F·[] S·0B[] Sc·[]
+01:47:40.628413 db@open opening
+01:47:40.628459 journal@recovery F·1
+01:47:40.631813 journal@recovery recovering @1
+01:47:40.692296 memdb@flush created L0@2 N·11 S·713B "H/\xf6..H\nR,v5":"sec..\xb1\xbdF,v1"
+01:47:40.700200 version@stat F·[1] S·713B[713B] Sc·[0.25]
+01:47:40.760172 db@janitor F·3 G·0
+01:47:40.760256 db@open done T·131.819633ms
+01:59:27.323256 db@close closing
+01:59:27.323444 db@close done T·182.353µs
+=============== May 6, 2018 (EDT) ===============
+01:59:37.504364 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:59:37.504601 version@stat F·[1] S·713B[713B] Sc·[0.25]
+01:59:37.504617 db@open opening
+01:59:37.504672 journal@recovery F·1
+01:59:37.508354 journal@recovery recovering @3
+01:59:37.542079 memdb@flush created L0@5 N·3 S·290B "Blo..ion,v13":"dbU..ata,v14"
+01:59:37.549588 version@stat F·[2] S·1003B[1003B] Sc·[0.50]
+01:59:37.609913 db@janitor F·4 G·0
+01:59:37.609949 db@open done T·105.319702ms
+02:31:34.104215 db@close closing
+02:31:34.104381 db@close done T·159.923µs
+=============== May 6, 2018 (EDT) ===============
+02:39:36.181073 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:39:36.181242 version@stat F·[2] S·1003B[1003B] Sc·[0.50]
+02:39:36.181256 db@open opening
+02:39:36.181309 journal@recovery F·1
+02:39:36.184514 journal@recovery recovering @6
+02:39:36.241956 memdb@flush created L0@8 N·2 S·243B "Blo..ion,v17":"Las..der,v18"
+02:39:36.251381 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+02:39:36.310060 db@janitor F·5 G·0
+02:39:36.310145 db@open done T·128.867231ms
+09:53:56.432838 db@close closing
+09:53:56.433036 db@close done T·193.173µs
